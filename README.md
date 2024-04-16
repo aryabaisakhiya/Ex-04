@@ -6,7 +6,7 @@ Develop a program to implement Secure Hash Algorithm (SHA-1)
 ```
 Step 1: Append Padding Bits….
 Message is “padded” with a 1 and as many 0’s as necessary to bring the
-message length to 64 bits fewer than an even multiple of 512.
+message length to 64 bits fewer than an even multiple of 512..
 Step 2: Append Length....
 64 bits are appended to the end of the padded message. These bits hold the
 binary format of 64 bits indicating the length of the original message.
